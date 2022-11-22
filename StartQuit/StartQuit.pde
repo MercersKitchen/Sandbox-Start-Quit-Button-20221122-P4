@@ -1,8 +1,16 @@
 //Global Variables
+int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
 int quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
-void setup() {} //End setup
+void setup()
+{
+  size (400, 300);
+  //fullScreen(); //displayWidth, displayHeight
+  appWidth = width;
+  appHeight = height;
+  //
+} //End setup
 //
 void draw()
 {
