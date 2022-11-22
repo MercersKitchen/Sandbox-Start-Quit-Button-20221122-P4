@@ -10,6 +10,11 @@ void setup()
   appWidth = width;
   appHeight = height;
   //
+  //Population
+  quitButtonX = ;
+  quitButtonY = ;
+  quitButtonWidth = ;
+  quitButtonHeight = ;
 } //End setup
 //
 void draw()
