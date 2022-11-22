@@ -15,7 +15,7 @@ void keyPressed()
   //
   //Prototype Key Board Quit Button OR shortcut
   if ( key=='Q' || key=='q' ) exit();
-  if () exit();
+  if ( keyCode == ESC ) exit();
   //
 } //End keyPressed
 //
