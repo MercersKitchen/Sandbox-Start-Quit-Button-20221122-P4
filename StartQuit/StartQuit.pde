@@ -5,6 +5,7 @@ int quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup()
 {
+  //Display & ALgorithms not considered yet
   size (400, 300);
   //fullScreen(); //displayWidth, displayHeight
   appWidth = width;
