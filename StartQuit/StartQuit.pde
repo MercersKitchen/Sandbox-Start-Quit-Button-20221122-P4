@@ -1,5 +1,6 @@
 //Global Variables
 Boolean start=false, noNowReallyStart=false;
+int quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup() {} //End setup
 //
@@ -7,7 +8,7 @@ void draw()
 {
   if ( noNowReallyStart==true ) { //Actual start IF
     background(0); //Night Mode not considered yet
-    rect(); //Quit Button
+    rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button
   } //End IF-STart
   //
 } //End draw
