@@ -19,7 +19,8 @@ void mousePressed()
   //
   //OS Level Start Button
   start = true;
-  
+  println("To Start, Press the Space Bar");
+  //
 } //End mousePressed
 //
 //End Main Program
