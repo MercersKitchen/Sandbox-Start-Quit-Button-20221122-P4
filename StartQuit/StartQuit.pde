@@ -15,7 +15,7 @@ void setup()
   float centerX = appWidth * 1/2; //Point
   float centerY = appHeight * 1/2; //Point
   quitButtonX = centerX - ( appWidth * 1/4 );
-  quitButtonY = centerY ;
+  quitButtonY = centerY - ( appHeight * 1/4 );
   quitButtonWidth = ;
   quitButtonHeight = ;
 } //End setup
