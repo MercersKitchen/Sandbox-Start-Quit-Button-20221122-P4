@@ -6,12 +6,14 @@ int quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 void setup()
 {
   //Display & ALgorithms not considered yet
-  size (400, 300);
+  size (400, 300); //Landscape
   //fullScreen(); //displayWidth, displayHeight
-  appWidth = width;
+  appWidth = width; 
   appHeight = height;
   //
   //Population
+  float centerX = appWidth * 1/2; //Point
+  float centerY = appHeight * 1/2; //Point
   quitButtonX = ;
   quitButtonY = ;
   quitButtonWidth = ;
