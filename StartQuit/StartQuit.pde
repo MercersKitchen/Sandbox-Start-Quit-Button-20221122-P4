@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
+color quitButtonColour, yellow=#FFFF00 , purple=#FF00FF ;
 //
 void setup()
 {
@@ -29,6 +30,14 @@ void draw()
     println("X-Value", quitButtonX, mouseX, quitButtonX+quitButtonWidth );
     println("Y-Value", quitButtonY, mouseY, quitButtonY+quitButtonHeight);
     //
+    //Quit Button Hover Over Feature
+    if (  ) {
+      quitButtonColour = yellow; //Remember Knight Mode
+    } else {
+      quitButtonColour = purple; //Remember Day Mode
+    } //End Hover Over
+    //
+    fill(quitButtonColour);
     rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button
   } //End IF-STart
   //
