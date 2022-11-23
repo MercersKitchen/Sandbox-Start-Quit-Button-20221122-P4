@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
-int quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
+float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup()
 {
@@ -14,8 +14,8 @@ void setup()
   //Population
   float centerX = appWidth * 1/2; //Point
   float centerY = appHeight * 1/2; //Point
-  quitButtonX = ;
-  quitButtonY = ;
+  quitButtonX = centerX - ( appWidth * 1/4 );
+  quitButtonY = centerY ;
   quitButtonWidth = ;
   quitButtonHeight = ;
 } //End setup
