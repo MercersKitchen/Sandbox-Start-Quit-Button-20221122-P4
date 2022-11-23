@@ -24,6 +24,11 @@ void draw()
 {
   if ( noNowReallyStart==true ) { //Actual start IF
     background(0); //Night Mode not considered yet
+    //
+    //Logical Rectangle
+    println("X-Value", quitButtonX, mouseX, quitButtonX+quitButtonWidth );
+    println("Y-Value", quitButtonY, mouseY, quitButtonY+quitButtonHeight);
+    //
     rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button
   } //End IF-STart
   //
@@ -48,7 +53,7 @@ void mousePressed()
   println("To Start, Press the Space Bar");
   //
   //Quit Button: Logical Rectangle, see println in draw()
-  if () exit();
+  /if ( mouseX> && mouseX< && mouseY> && mouseY< ) exit();
   //
 } //End mousePressed
 //
