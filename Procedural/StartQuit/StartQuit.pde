@@ -6,13 +6,13 @@ color quitButtonColour, yellow=#FFFF00 , purple=#FF00FF ;
 //
 void setup()
 {
-  
   size (400, 300); //Landscape
   //fullScreen(); //displayWidth, displayHeight
+  displayOrientation();
   appWidth = width; 
   appHeight = height;
   //
-  //Population
+  //
   float centerX = appWidth * 1/2; //Point
   float centerY = appHeight * 1/2; //Point
   quitButtonX = centerX - ( appWidth * 1/4 );
