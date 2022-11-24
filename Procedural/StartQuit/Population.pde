@@ -5,4 +5,4 @@ void population() {
   quitButtonY = centerY - ( appHeight * 1/4 );
   quitButtonWidth = appWidth * 1/2; //Line not point, thus use formula
   quitButtonHeight = appHeight * 1/2; //Line not point, thus use formula
-}//End opulation
+}//End population
