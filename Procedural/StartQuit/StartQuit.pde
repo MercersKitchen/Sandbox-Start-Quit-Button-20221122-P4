@@ -17,9 +17,8 @@ void setup()
 void draw()
 {
   if ( noNowReallyStart==true ) { //Actual start IF
-    
+    programDraw();
   } //End IF-STart
-  //
 } //End draw
 //
 void keyPressed()
