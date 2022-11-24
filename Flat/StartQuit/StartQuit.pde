@@ -33,9 +33,10 @@ void draw()
     //Quit Button Hover Over Feature
     if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) {
       quitButtonColour = yellow; //Remember Knight Mode
-      //HINT: QuitButtonWorks Boolean here, if true, would only work if the mouse hovered over the logical rectangle
+      //HINT logical rect: QuitButtonWorks-Boolean TRUE, here
     } else {
       quitButtonColour = purple; //Remember Day Mode
+      //HINT logical rect: QuitButtonWorks-Boolean FALSE, here
     } //End Hover Over
     //
     fill(quitButtonColour);
